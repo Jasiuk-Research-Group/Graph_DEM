@@ -1,1 +1,2 @@
 # Graph_DEM
+A deep energy method (DEM) based on graph convolution network. In this work, we compare two DEM models, one based on multi-layer perceptron model, the other one based on graph convolution network. For each model, we include two gradient calculation method, one based on automatic differentiation, the other based on gradients of finite element shape functions. We test the models on hyperelastic and linear elastic material models, and compared the results with the finite element method.
